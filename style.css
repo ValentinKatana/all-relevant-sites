@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(-45deg, red, blue, green);
+    background-color: darkslateblue;
     margin: 0;
     padding: 0;
 }
@@ -32,6 +32,7 @@ a {
     margin-left: auto;
     width: 20%;
     box-shadow: 5px 5px 10px aqua;
+    display: inline-block;
 }
 #google {
     background: linear-gradient(
