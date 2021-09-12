@@ -1,0 +1,118 @@
+body {
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.buttons > a > div {
+    transition: transform .3s;
+}
+.buttons > a > div:hover {
+    transform: scale(0.8);
+}
+
+.buttons {
+    text-align: center;
+}
+.buttons > a > div {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    box-shadow: 5px 5px 10px aqua;
+    display: inline-block;
+}
+#google {
+    background: linear-gradient(
+         45deg,
+         #354bda,
+         #e92f2f,
+         #e4e40f,
+         #354bda,
+         #008000, 
+         #e92f2f
+    );
+}
+
+#facebook {
+    background-color:#4267B2;
+}
+
+#instagram {
+    background-color: rgb(172, 83, 224);
+}
+#whatsapp {
+    background-color: 	#075E54;  
+}
+#youtube {
+    background-color: rgb(255, 0, 0);
+}
+#netflix {
+    background-color: rgb(229, 9, 20);
+}
+#yahoo {
+    background-color: rgb(114, 14, 158);
+}
+.buttons > a > div > span {
+    vertical-align: middle;
+}
+#logoimg {
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+#gmail {
+    background: linear-gradient(
+            100deg,
+         #354bda,
+         #e92f2f,
+         #e4e40f,
+         #008000
+         );
+}
+#panel {
+    background-color: rgb(25, 0, 0);
+}
+#forum {
+    background-color: darkred;
+}
+#roblox {
+    background-color: red;
+}
+#filelist {
+    background-color: darkblue;
+}
+#pornhub {
+    background-color: black;
+}
+#cap {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 5px 5px 20px khaki;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    color: black;
+}
+
+/* mobile design */
+@media (max-width: 1000px) {
+    .buttons > a > div {
+        width: 30%;
+    }
+    body {
+        background: linear-gradient(45deg, red, blue, green);
+    }
+}
